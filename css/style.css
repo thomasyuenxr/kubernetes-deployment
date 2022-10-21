@@ -1,0 +1,690 @@
+body{
+    background-color: #1f4e5f;
+}
+
+/* ~~~~~nav bar style in ALL ~~~~~~*/
+.nav{
+    background-color:#1f4e5f;
+    border-bottom: 2px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    margin-bottom: 1em;
+}
+
+.nav img{
+    margin: auto;
+    width: 60px;
+    height:60px;
+    padding-right: 50px;
+}
+
+#nav_logo {
+    height: fit-content;
+}
+
+.nav a{             
+    font-family: 'A Love of Thunder', sans-serif;
+    color: #f4f7f7;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    height: 15px;
+    margin-left: auto;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 1em;
+}
+
+#current_item {
+    color: #aacfd0;
+}
+
+
+.nav_item:hover  {
+    color: #aacfd0;
+}
+
+body >h1 {
+    text-align: center;
+    font-size: 80px;
+    color: #aacfd0;
+}
+
+/* ~~~~~~index PAGE ~~~~~~~*/
+
+/* ~~~slider~~~ */
+.sliderframe {
+    padding-left: 20%;
+    padding-right: 20%;
+    width: 60%;
+}
+
+
+.intro {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.index-text {
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 20%;
+}
+
+.intro > img {
+    float: right;
+    max-width: 70%;
+    padding-right: 30px;
+}
+
+
+#comment-text {
+    width: 30%;
+}
+
+
+.customer-comment-frame {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.customer-comment {
+    display: flex;
+    flex-direction: column;
+}
+
+.customer-comment-frame img {
+    width: 200px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 50px;
+}
+
+
+
+
+/*~~~~~~ about & activity PAGE ~~~~~~*/
+
+.about-box,.activity-box {
+    padding-left: 80px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    margin: 1%;
+    border: dotted #f4f7f7;
+}
+
+.about-content, .activity-content >div{
+    margin-bottom: 100px;
+}
+
+.about-box-text, .activity-box-text {
+    width: 40%;
+}
+
+
+.about-img-box, .activity-img-box {
+    width: 60%;
+    height: auto;
+    max-width: 600px;
+    max-height: 800px;
+}
+
+.about-content img {
+    float: right;
+    margin-right: 50px;
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;    
+}
+
+
+
+
+/* ~~~~~~Activities PAGE~~~~~~ */
+.activity-content > h1 {
+    margin-left: 5%;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+
+
+.activity-content >div{
+    margin-bottom: 100px;
+}
+
+
+.activity-content img {
+    float: right;
+    margin-right: 50px;
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;    
+}
+
+#more-activity {
+    display: none;
+}
+
+#readmore-btn {
+    width: 100%;
+    padding-left: 5%;
+}
+
+
+
+/* ~~~~~~booking PAGE~~~~~~ */
+
+.booking-all {
+    background: url(../images/hola.jpg);
+    background-position:center ;
+    background-size: cover;
+    padding: 10%;
+    
+}
+
+#booking-header {
+    padding-top: 5%;
+    
+}
+
+.booking-info {
+    background:rgba(72, 154, 192, 0.6);
+    padding-left: 15%;
+    padding-right: 15%;
+    width: 50%;
+    border-radius: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.booking-form span{
+    padding: 20px;
+    margin: 5%;
+    display:block;
+}
+
+.booking-form label {
+    font-family: 'X-Heighting', sans-serif;
+    font-size: 30px;
+    color: white;
+    
+    
+}
+
+.booking-form input{
+    font-family: 'X-Heighting', sans-serif;
+    font-size: 20px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-right: 10%;
+    border-radius: 10px;
+    width: 60%;
+    float: right;
+}
+
+.booking-form select{
+    font-family: 'X-Heighting', sans-serif;
+    font-size: 20px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-right: 10%;
+    border-radius: 10px;
+    width: 60%;
+    float: right;
+}
+
+
+.booking-all button {
+    background-color: #2f8f77;
+    border: 2px solid #7692b0;
+    border-radius: 30px;
+    box-shadow: #8F8A28 4px 4px 0 0;
+    font-size: 30px;
+    color: #aacfd0;
+    padding: 18px;
+    font-family: monospace;
+    font-weight: 800;
+    cursor: pointer;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+
+.booking-all button:hover {
+    background-color: #7692b0;
+}
+
+
+.membership-all {
+    background: url(../images/sign.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 10%;
+}
+
+#membership-header h1{
+    padding-top: 2%;
+    color: rgb(196, 196, 196);
+    text-decoration: none;
+}
+
+
+.membership-info {
+    background:rgba(192, 76, 72, 0.6);
+    padding-left: 15%;
+    padding-right: 15%;
+    width: 50%;
+    border-radius: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid #7692b0;
+}
+
+.member-plan {
+    display: flex;
+    flex-direction: row;
+}
+
+.member-plan div{
+    flex: 1;
+    margin-right: 10%;
+}
+
+.member-plan h2 {
+    color: rgb(244, 164, 96);
+    font-size: 2rem;
+}
+
+.member-plan li{
+    color: black;
+}
+
+.plan-btn {
+    margin-left: 25%;
+    margin-bottom: 5%;
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    transition: 200ms ease-in-out;
+    border: 2px solid #7692b0;
+    border-radius: 10px;
+    box-shadow: #8F8A28 2px 2px 0 0;
+    background-color: #7692b0;
+    width: 50%;
+    max-width: 50%;
+    z-index: 100;
+    display: none;
+}
+
+.modal.active {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-img {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 20px;
+}
+
+.modal-img>img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.modal-text {
+    font-size: 3rem;
+    font-family: 'Banksia', sans-serif;
+    color: #131313;
+    padding-left: 20%;
+    padding-right: 20%; 
+    padding-top: 10%;
+    padding-bottom: 10%; 
+}
+
+.modal .close-btn {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 1;
+    transition: 200ms ease-in-out;
+    pointer-events: none;
+    display: none;
+}
+
+#overlay.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+
+/* ~~~~~~comment PAGE~~~~~~ */
+
+.comment-frame {
+    background-color: rgba(156, 156, 156, 0.7);
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+    padding-bottom: auto;
+}
+
+.customer-comment-box {
+    border: dotted black;
+    margin-bottom: 3%;
+}
+
+.comment-frame img {
+    width: 10%;
+    border-radius: 50%;
+    float: left;
+    margin-right: 50px;
+}
+
+.customer-comment-box p{
+    text-decoration: none;
+    color:#aacfd0;
+}
+
+#comment-form legend {
+    font-family: 'Furore', sans-serif;
+    font-size: 2rem;
+}
+
+#comment-input {
+    width: 60%;
+    height: 10%;
+    font-size: 1.5rem;
+}
+
+#added-comment {
+    display: none;
+}
+
+
+/* ~~~~~~souvenir PAGE~~~~~~ */
+#coming {
+    margin: 10%;
+}
+
+
+
+/* ~~~~~ Contact PAGE ~~~~~~~ */
+#contact-pic {
+    width: 100%;
+    padding-top: 3%;
+}
+
+.contact-us {
+    padding-left: 10%;
+    margin: 3%;
+    border: #f4f7f7 dotted;
+    border-radius: 50px;
+    background-color: rgba(54, 54, 54, 0.3);
+}
+
+#contact-form {
+    font-family:'Banksia', sans-serif; 
+    font-size: 20px;
+    color: #79a8a7;
+    padding-right: 10%;
+}
+
+
+
+
+.contact-us input {
+    font-size: 1rem;
+    color: #1f4e5f;
+    width: 50%;
+    height: 2rem;
+    background-color: #f4f7f7;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.contact-us textarea {
+    font-family:'Banksia', sans-serif; 
+    font-size: 1.5rem;
+    color: #1f4e5f;
+    width: 50%;
+    border-radius: 10px;
+
+}
+
+#submitbtn {
+    max-width: 10%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+
+
+
+/* Responsive */
+
+@media screen and (max-width: 810px) {
+    .nav {
+        flex-direction: column;
+
+    }
+
+    .nav > a {
+        padding: 5px;
+        float:left;
+        text-align: center;
+    }
+
+    /*~~~ index PAGE ~~~*/
+    .intro {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .index-text {
+        width: auto;
+    }
+
+    #comment-text {
+        width: 80%;
+    }
+
+    .customer-comment {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 10%;
+    }
+
+    .intro > img {
+        float:none;
+        max-width: 100%;
+        margin-top: 10%;
+        margin-left: 5%;
+    }
+
+    .customer-comment-frame img {
+        width: 35%;
+        border-radius: 50%;
+        float: left;
+        margin-right: 50px;
+    }
+
+    /* ~~~about & actitity PAGE~~~ */
+    .about-box {
+        flex-direction: column;
+    }
+
+    .about-box-text {
+        width: 90%;
+        margin-bottom: 5%;
+    }
+
+
+    /* ~~~activity PAGE~~~ */
+    .activity-box {
+        flex-direction: column;
+    }
+
+    .activity-box-text {
+        width: 90%;
+        margin-bottom: 5%;
+    }
+
+    /* ~~~booking PAGE~~~ */
+    .booking-form input {
+        width: auto;
+    }
+
+    .booking-form select {
+        width: auto;
+    }
+
+    .booking-form {
+        flex-direction: column;
+    }
+
+    /* ~~~membership PAGE~~~ */
+    .member-plan {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #membership-header h1 {
+        font-size: 20px;
+    }
+
+    .member-plan h2 {
+        color: rgb(244, 164, 96);
+        font-size: 20px;
+        
+    }
+
+}
+
+/* content style */
+
+.content{
+    padding-left: 5%;
+    width: 20%;
+
+}
+
+.main-img-right {
+    max-width: 80%;
+    float: right;
+}
+
+.main-img-left {
+    max-width: 80%;
+    float: left;
+}
+
+h1 {
+    font-family: 'A Love of Thunder', sans-serif;
+    text-decoration: underline;
+    color: #f4f7f7;
+    font-size: 2rem;
+}
+
+h2 {
+    font-family: 'Furore', sans-serif;
+    color: #aacfd0;
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-family: 'Banksia', sans-serif;
+    color: #79a8a7;
+    font-size: 1.5rem;
+    margin-bottom: 5%;
+}
+
+p {
+    font-family: 'Whois', sans-serif;                                                              
+    color: #aacfd0;
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+li {
+    font-family: 'Whois', sans-serif;                                                              
+    color: #aacfd0;
+    text-decoration: underline;
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+
+
+.btn {
+    background-color: #2f8f77;
+    border: 2px solid #7692b0;
+    border-radius: 30px;
+    box-shadow: #8F8A28 4px 4px 0 0;
+    font-size: 30px;
+    color: #aacfd0;
+    padding: 18px;
+    font-family: monospace;
+    font-weight: 800;
+    cursor: pointer;
+    margin-top: 100px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #7692b0;
+}
+
+
+
+
+
+hr {
+    width: 60%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-top: solid #7692b0 1px;
+}
+
+footer {
+    background-color: #7692b0;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+footer a{
+    font-family: 'Banksia', sans-serif;
+    color: #1f4e5f;
+    font-size: 15px;
+    margin-left: 5%;
+}
+
+footer p {
+    text-decoration: none;
+}
+
+
+
+
+
