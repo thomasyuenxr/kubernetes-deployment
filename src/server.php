@@ -6,8 +6,8 @@ session_start();
 $error = array();
 
 $servername = "mysql";
-$username = "php";
-$password = "php";
+$username = "root";
+$password = "root";
 
 // Create connection
 $db = mysqli_connect($servername, $username, $password);
