@@ -10,12 +10,12 @@ $username = "php";
 $password = "php";
 
 // Create connection
-$db = mysqli_connect($servername, $username, $password);
+$db = mysqli_connect($servername, $username, $password, "infs3208");
 
 
 // Enter your host name, database username, password, and database name.
 // If you have not set database password on localhost then set empty.
-// $db = mysqli_connect("root","root","infs3208");
+// $db = mysqli_connect("localhost", "root","root","infs3208");
 
     
 // Check connection
